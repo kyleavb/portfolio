@@ -1,0 +1,91 @@
+{
+    "languages":[
+        {
+            "name": "JavaScript",
+            "icon": "devicon-javascript-plain"
+        },
+        {
+            "name": "Python",
+            "icon": "devicon-python-plain"
+        },
+        {
+            "name": "SASS",
+            "icon": "devicon-sass-plain"
+        },
+        {
+            "name": "HTML",
+            "icon": "devicon-html5-plain"
+        },
+        {
+            "name": "CSS",
+            "icon": "devicon-css3-plain"
+        },
+        {
+            "name": "SQL",
+            "icon": ""
+        },
+        {
+            "name": "JSX",
+            "icon": ""
+        },
+        {
+            "name": "EJS",
+            "icon": ""
+        }
+    ],
+    "Frameworks":[
+        {
+            "name": "React",
+            "icon": "devicon-react-original"
+        },
+        {
+            "name": "Redux",
+            "icon": ""
+        },
+        {
+            "name": "Node.js",
+            "icon": "devicon-nodejs-plain"
+        },
+        {
+            "name": "Express",
+            "icon": "devicon-express-original"
+        },
+        {
+            "name": "Django",
+            "icon": "devicon-django-plain"
+        },
+        {
+            "name": "jQuery",
+            "icon": "devicon-jquery-plain"
+        }
+    ],
+    "Database_ORM":[
+        {
+            "name": "MongoDB",
+            "icon": "devicon-mongodb-plain"
+        },
+        {
+            "name": "PostgreSQL",
+            "icon": "devicon-postgresql-plain"
+        },
+        {
+            "name": "Mongoose",
+            "icon": ""
+        },
+        {
+            "name": "Sequelize",
+            "icon": "devicon-sequelize-plain"
+        }
+    ],
+    "Other":[
+        {
+            "name": "Git",
+            "icon": "devicon-git-plain"
+        },
+        {
+            "name": "Heroku",
+            "icon": "devicon-heroku-plain"
+        }
+    ]
+
+}
