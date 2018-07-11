@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "concurrently \"npm run client\" \"npm run server\"",
     "client": "cd client && npm run start",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "start": "node index.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Kyle Van Bergen",
   "license": "ISC",
