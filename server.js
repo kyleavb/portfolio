@@ -15,4 +15,8 @@ app.get('/getSkills', (req,res) => {
   res.send(JSON.stringify(skills));
 });
 
+app.get('*', (req,res, next) => {
+  res.sendFile(__dirname, '/client', 'build', 'index.html');
+})
+
 app.listen(port, () => console.log(`Listening on port ${port}`));
