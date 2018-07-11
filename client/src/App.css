@@ -1,11 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC|Source+Sans+Pro');
+
 body{
   text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.skill{
-  height:500px;
-  width: 500px;
+.title-name {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 4em;
 }
+
+h1, h2 {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.navtags {
+  padding: 10px;
+}
+.intro-words {
+  padding: 25px 50px;
+}
+
+.intro-para {
+  text-align: justify;
+}
+
+@media (max-width: 769px) {
+  .skill-icon {
+    height: 175px;
+    width: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .title-name {
+    font-size: 3em;
+  }
+}
+
+@media (max-width: 550px) {
+  .skill-icon {
+    height: 125px;
+    width: auto;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-name {
+    font-size: 2em;
+  }
+}
+
 .img-holder{
   padding: .5em;
 }
@@ -13,7 +58,7 @@ a.anchor {
   display: block;
   text-decoration: none;
   position: relative;
-  top: -150px;
+  top: -170px;
   visibility: hidden;
 }
 img{

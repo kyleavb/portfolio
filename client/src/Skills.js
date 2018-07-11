@@ -1,37 +1,36 @@
 import React,{Component} from 'react';
 import axios from 'axios';
 import {Grid} from '@material-ui/core';
-import { LanguageJavascriptIcon, NodejsIcon, LanguageHtml5Icon } from 'mdi-react';
+import SkillComponent from './SkillComponent'
 
 class Skills extends Component{
-    constructor(props){
-        super(props)
-        this.state = {
-            skills: ''
-        }
+    state = {
+        skills: '',
+        anchorEl: null,
     }
 
     componentDidMount(){
         axios.get('/getSkills').then((ret) =>{
             this.setState({
                 skills: ret.data
-            }, ()=> {
-                console.log(this.state)
-            })
-        })
-    }
+            });
+        });
+    };
 
-    render(){ 
-        console.log('here', this.state.skills)
+    render(){
+        let skillsImport = this.state.skills.data
+        let mappedSkills = skillsImport ? skillsImport.map((skill, i) => {
+            return(<SkillComponent skill={skill} key={i} />)
+        }) : '';
+        console.log('state', this.state)
         return(
             <Grid>
                 <a id='skills' className='anchor'/>
                 <h1>Technologies</h1>
-                <div>
-                    <LanguageJavascriptIcon size={250}/>
-                    <NodejsIcon size={250}/>
-                    <LanguageHtml5Icon size={250} color={'primary'}/>
-                </div>
+                <p><i>Click on a icon for more info!</i></p>
+                <Grid container>
+                    {mappedSkills}
+                </Grid>
             </Grid>
         )
     }

@@ -5,7 +5,7 @@ import {Grid, Button} from '@material-ui/core';
 class Projects extends Component{
     render(){
         let mappedProjects = List.projects.map((proj, i) => {
-            
+            // console.log(proj)
             return(
                 <Grid container key={i} className='project-container'>
                     <Grid item xs={12}>
@@ -15,7 +15,7 @@ class Projects extends Component{
                         <Grid item sm={12} md={6}>
                             <Grid container>
                                 <Grid item xs={12} md={6}>
-                                    <Button variant="contained" color="secondary" href={proj.github}>Git Hub</Button>
+                                    <Button variant="outlined" color="secondary" href={proj.github}>Git Hub</Button>
                                     {` `}
                                     <Button variant="contained" color="secondary" href={proj.live}>Live Site</Button>
                                     <h4>Tech Used</h4>

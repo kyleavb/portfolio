@@ -1,90 +1,80 @@
 {
-    "languages":[
+    "data":[
         {
             "name": "JavaScript",
-            "icon": "devicon-javascript-plain"
+            "icon": "LanguageJavascriptIcon"
         },
         {
             "name": "Python",
-            "icon": "devicon-python-plain"
+            "icon": "LanguagePythonIcon"
         },
         {
-            "name": "SASS",
-            "icon": "devicon-sass-plain"
+            "name": "C#",
+            "icon": "LanguageCsharpIcon"
         },
         {
-            "name": "HTML",
-            "icon": "devicon-html5-plain"
+            "name": "HTML5",
+            "icon": "LanguageHtml5Icon"
         },
         {
-            "name": "CSS",
-            "icon": "devicon-css3-plain"
+            "name": "CSS3",
+            "icon": "LanguageCss3Icon"
         },
         {
             "name": "SQL",
-            "icon": ""
+            "icon": "DatabaseIcon"
         },
         {
             "name": "JSX",
-            "icon": ""
+            "icon": "CodeBracesIcon"
         },
         {
             "name": "EJS",
-            "icon": ""
-        }
-    ],
-    "Frameworks":[
+            "icon": "CodeBracesIcon"
+        },
         {
             "name": "React",
-            "icon": "devicon-react-original"
+            "icon": "ReactIcon"
         },
         {
             "name": "Redux",
-            "icon": ""
+            "icon": "FileDocumentIcon"
         },
         {
             "name": "Node.js",
-            "icon": "devicon-nodejs-plain"
+            "icon": "NodejsIcon"
         },
         {
             "name": "Express",
-            "icon": "devicon-express-original"
+            "icon": "ServerIcon"
         },
         {
             "name": "Django",
-            "icon": "devicon-django-plain"
+            "icon": "ServerIcon"
         },
         {
             "name": "jQuery",
-            "icon": "devicon-jquery-plain"
-        }
-    ],
-    "Database_ORM":[
+            "icon": "JqueryIcon"
+        },
         {
             "name": "MongoDB",
-            "icon": "devicon-mongodb-plain"
+            "icon": "DatabaseIcon"
         },
         {
             "name": "PostgreSQL",
-            "icon": "devicon-postgresql-plain"
+            "icon": "DatabaseIcon"
         },
-        {
-            "name": "Mongoose",
-            "icon": ""
-        },
-        {
-            "name": "Sequelize",
-            "icon": "devicon-sequelize-plain"
-        }
-    ],
-    "Other":[
         {
             "name": "Git",
-            "icon": "devicon-git-plain"
+            "icon": "GithubCircleIcon"
         },
         {
             "name": "Heroku",
-            "icon": "devicon-heroku-plain"
+            "icon": "ServerNetworkIcon"
+        },
+        {
+            "name": "Unity",
+            "icon": "UnityIcon"
         }
     ]
 

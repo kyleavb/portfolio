@@ -9,7 +9,7 @@ class Nav extends Component{
                     <b className='title-name'>Kyle Van Bergen</b>
                     <br />
                     <i>Seattle Based Full Stack Developer</i>
-                    <Grid container spacing={24}>
+                    <Grid container spacing={24} className='navtags'>
                         <Grid item xs={6} sm={3}>
                             <Button size='large' href='#about'>About</Button>                           
                         </Grid>
