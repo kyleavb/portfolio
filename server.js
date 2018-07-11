@@ -1,6 +1,7 @@
 const express = require('express');
 require('dotenv').config()
 const app = express();
+const path = require('path')
 const port = process.env.PORT || 5000;
 const questions = require('./questions')
 const skills = require('./skillList')
