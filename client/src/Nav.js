@@ -1,22 +1,30 @@
 import React,{Component} from 'react'
+import {AppBar, Button, Grid} from '@material-ui/core';
 
 class Nav extends Component{
     render(){
         return(
-            <div className='nav-bar'>
-                <p>
+            <AppBar position='sticky'>
+                <div className='nav-bar'>
                     <b className='title-name'>Kyle Van Bergen</b>
                     <br />
                     <i>Seattle Based Full Stack Developer</i>
-                </p>
-                <nav>
-                    {/* <a href='#top'>Top</a> */}
-                    <a href='#about'>About</a>
-                    <a href='#skills'>Skills</a>
-                    <a href='#projects'>Projects</a>
-                    <a href='#contact'>Contact</a>
-                </nav>
-            </div>
+                    <Grid container spacing={24}>
+                        <Grid item xs={6} sm={3}>
+                            <Button size='large' href='#about'>About</Button>                           
+                        </Grid>
+                        <Grid item xs={6} sm={3}>
+                            <Button size='large' href='#skills'>Skills</Button>
+                        </Grid>
+                        <Grid item xs={6} sm={3}>
+                            <Button size='large' href='#projects'>Projects</Button>
+                        </Grid>
+                        <Grid item xs={6} sm={3}>
+                            <Button size='large' href='#contact'>Contact</Button>
+                        </Grid>
+                    </Grid>
+                </div>
+            </AppBar>
         )
     }
 }

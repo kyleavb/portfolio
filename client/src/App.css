@@ -1,11 +1,28 @@
-div{
-    border: solid blue 1px;
+body{
+  text-align: center;
 }
 
+.skill{
+  height:500px;
+  width: 500px;
+}
+.img-holder{
+  padding: .5em;
+}
+a.anchor {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  top: -150px;
+  visibility: hidden;
+}
+img{
+  max-width:100%;
+  max-height:100%;
+}
 .fadein{
     opacity: 1;
     animation: fadein 1s linear;
-    /* animation: fadeout 1s linear; */
   }
   
   @keyframes fadein{

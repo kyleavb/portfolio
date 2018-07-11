@@ -1,6 +1,8 @@
 import React,{Component} from 'react'
 import axios from 'axios'
-import KyleFace from './img/kyle-face.jpg'
+import {Grid} from '@material-ui/core';
+import AboutPicture from './AboutPicture';
+import AboutInfo from './AboutInfo';
 
 class About extends Component{
     constructor(props){
@@ -19,7 +21,6 @@ class About extends Component{
 
     componentDidMount(){
         axios.get('/getQuestions').then((data)=>{
-            console.log(data.data);
             this.setState({
                 questionList: data.data
             }, this.newQuestion)
@@ -41,11 +42,9 @@ class About extends Component{
                 fade: 'fadeout'
             })
         }
-        
     }
 
     newQuestion(){
-        console.log('stuff', this.state.questionList)
         var questions = this.state.questionList
         var num = this.getRandomNum(questions.length)
         if(this.state.history.length === questions.length){
@@ -68,24 +67,10 @@ class About extends Component{
 
     render(){
         return(
-            <div className='section about'>
-                <a id='about' className='anchor'/>
-                <div className='about-wrapper'>
-                    <div className='about-picture'>
-                        <img src={KyleFace} alt='this is kyles face'/>
-                    </div>
-                    <div className='about-info'>
-                        <h2>Hello.  I am Kyle.</h2>
-                        <p>I was the first kid on my block with a computer. and I have been fascinated with them ever since. I have been coding as a self-taught amateur for about 5 years. I got my start in coding by learning how to make macros and automate repots with Visual Basic with excel while at Bank of America. After that I started diving into JavaScript which lead to a job writing JavaScript repots for various fortune 500 companies. Since I was starting to get into more serious coding, I decided to attend General Assembly coding boot camp, and I have been insatiable ever since.</p>
-                        <h2>Get to know me.</h2>
-                        <div className={this.state.fade}>
-                            <h3>{this.state.curQuestion}</h3>
-                            <p>{this.state.curAnswer}</p>
-                        </div>
-                    </div>
-                    <div className='clear'></div>
-                </div>
-            </div>
+            <Grid container className='about-section'>
+                <AboutPicture />
+                <AboutInfo fade={this.state.fade} question={this.state.curQuestion} answer={this.state.curAnswer}/>
+            </Grid>
         )
     }
 }

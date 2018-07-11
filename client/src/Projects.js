@@ -1,23 +1,38 @@
 import React,{Component} from 'react'
 import List from './ProjList'
+import {Grid, Button} from '@material-ui/core';
+
 class Projects extends Component{
     render(){
         let mappedProjects = List.projects.map((proj, i) => {
-            let temp = i + ' project-description'
+            
             return(
-                <div key={i} className='project-container'>
-                    <div className={temp}>
+                <Grid container key={i} className='project-container'>
+                    <Grid item xs={12}>
                         <h2>{proj.name}</h2>
-                        <a href={proj.github}>Git Hub</a>
-                        <h5>Description:</h5>
-                        <p>{proj.description}</p>
-                        <h5>Tech Used</h5>
-                    <a href={proj.live}>Live Site</a>
-                    </div>
-                    <div className='project-img'>
-                        <img src={proj.img} alt='project image' />
-                    </div>
-                </div>
+                    </Grid>
+                    <Grid container>
+                        <Grid item sm={12} md={6}>
+                            <Grid container>
+                                <Grid item xs={12} md={6}>
+                                    <Button variant="contained" color="secondary" href={proj.github}>Git Hub</Button>
+                                    {` `}
+                                    <Button variant="contained" color="secondary" href={proj.live}>Live Site</Button>
+                                    <h4>Tech Used</h4>
+                                </Grid>
+                                <Grid item xs={12} md={6}>
+                                    <h4>Description:</h4>
+                                    <p>{proj.description}</p>
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                        <Grid item sm={12} md={6}>
+                            <div className='img-holder'>
+                                <img src={proj.img} alt={`Image for ${proj.name}`} />
+                            </div>
+                        </Grid>
+                    </Grid>
+                </Grid>
             )
         })
 
