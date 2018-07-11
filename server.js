@@ -4,6 +4,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 const questions = require('./questions')
 const skills = require('./skillList')
+const resume = require('./VanBergenKyle_Resume_current.pdf')
 
 app.get('/getQuestions', (req, res) => {
   console.log('request for front end questions');
@@ -15,7 +16,13 @@ app.get('/getSkills', (req,res) => {
   res.send(JSON.stringify(skills));
 });
 
+// app.get('/resume', (req, res)=>{
+//   console.log('someone wanted your resume!  wtf?');
+//   res.sendfile(resume)
+// })
+
 app.get('*', (req,res, next) => {
+  console.log('serving react app')
   res.sendFile(__dirname, '/client', 'build', 'index.html');
 })
 

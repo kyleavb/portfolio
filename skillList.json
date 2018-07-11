@@ -2,79 +2,117 @@
     "data":[
         {
             "name": "JavaScript",
-            "icon": "LanguageJavascriptIcon"
+            "icon": "LanguageJavascriptIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Python",
-            "icon": "LanguagePythonIcon"
+            "icon": "LanguagePythonIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "C#",
-            "icon": "LanguageCsharpIcon"
+            "icon": "LanguageCsharpIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "HTML5",
-            "icon": "LanguageHtml5Icon"
+            "icon": "LanguageHtml5Icon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "CSS3",
-            "icon": "LanguageCss3Icon"
+            "icon": "LanguageCss3Icon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "SQL",
-            "icon": "DatabaseIcon"
+            "icon": "DatabaseIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "JSX",
-            "icon": "CodeBracesIcon"
+            "icon": "CodeBracesIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "EJS",
-            "icon": "CodeBracesIcon"
+            "icon": "CodeBracesIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "React",
-            "icon": "ReactIcon"
+            "icon": "ReactIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Redux",
-            "icon": "FileDocumentIcon"
+            "icon": "FileDocumentIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Node.js",
-            "icon": "NodejsIcon"
+            "icon": "NodejsIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Express",
-            "icon": "ServerIcon"
+            "icon": "ServerIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Django",
-            "icon": "ServerIcon"
+            "icon": "ServerIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "jQuery",
-            "icon": "JqueryIcon"
+            "icon": "JqueryIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "MongoDB",
-            "icon": "DatabaseIcon"
+            "icon": "DatabaseIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "PostgreSQL",
-            "icon": "DatabaseIcon"
+            "icon": "DatabaseIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Git",
-            "icon": "GithubCircleIcon"
+            "icon": "GithubCircleIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Heroku",
-            "icon": "ServerNetworkIcon"
+            "icon": "ServerNetworkIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         },
         {
             "name": "Unity",
-            "icon": "UnityIcon"
+            "icon": "UnityIcon",
+            "blurb": "This is placeholder Info",
+            "stars": 2
         }
     ]
 

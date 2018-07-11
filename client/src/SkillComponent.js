@@ -23,31 +23,39 @@ class SkillComponent extends Component{
         
     };
 
+    randomColor(){
+        return `rgba(${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, ${Math.floor(Math.random() * 255)}, 1)`
+    }
+
     createComponent(icon){
         const IconLocate = Icons[icon];
-        return <IconLocate  size={50} className='skill-icon' />;
+        return <IconLocate  size={70} color={this.randomColor()} className='skill-icon' />;
     }
 
     render(){
         let runTimeComp = this.createComponent(this.props.skill.icon);
         let render = this.state.popOpen
-        console.log(this.state.anchorEl)
         return(
-            <Grid item xs={2} onClick={this.handleIconClick}>
+            <Grid item xs={2} onClick={this.handleIconClick} color={'primary'}>
                 {runTimeComp}
                 <Popover
                     anchorEl={this.state.anchorEl}
                     open={render}
                     anchorOrigin={{
-                        vertical: 'bottom',
-                        horizontal: 'left',
-                    }}
-                    transformOrigin={{
+                        vertical: 'center',
+                        horizontal: 'right',
+                      }}
+                      transformOrigin={{
                         vertical: 'top',
                         horizontal: 'left',
-                    }}
+                      }}
                     >
-                    <p>I use {this.props.skill.name}.</p>
+                    <Grid container>
+                        <Grid item xs={12}>
+                            <p>{this.props.skill.name}</p>
+                            <p>{this.props.skill.blurb}</p>
+                        </Grid>
+                    </Grid>
                 </Popover>
                 <p>{this.props.skill.name}</p>
             </Grid>

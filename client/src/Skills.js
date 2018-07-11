@@ -5,8 +5,7 @@ import SkillComponent from './SkillComponent'
 
 class Skills extends Component{
     state = {
-        skills: '',
-        anchorEl: null,
+        skills: ''
     }
 
     componentDidMount(){
@@ -22,13 +21,12 @@ class Skills extends Component{
         let mappedSkills = skillsImport ? skillsImport.map((skill, i) => {
             return(<SkillComponent skill={skill} key={i} />)
         }) : '';
-        console.log('state', this.state)
         return(
             <Grid>
                 <a id='skills' className='anchor'/>
                 <h1>Technologies</h1>
                 <p><i>Click on a icon for more info!</i></p>
-                <Grid container>
+                <Grid container alignContent='space-between'>
                     {mappedSkills}
                 </Grid>
             </Grid>

@@ -6,7 +6,7 @@ const PROJLIST = {
     projects:[
         {
             'name': 'Equally',
-            'description' : 'description here',
+            'description' : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor augue blandit nulla elementum ultrices. Etiam pharetra faucibus nisi, sed varius',
             'github' : 'https://github.com/kyleavb/EquAlly',
             'live' : 'https://equally.herokuapp.com/',
             'img' : equally,

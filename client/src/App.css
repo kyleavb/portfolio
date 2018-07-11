@@ -27,7 +27,7 @@ h1, h2 {
 
 @media (max-width: 769px) {
   .skill-icon {
-    height: 175px;
+    height: 45px;
     width: auto;
   }
 }
@@ -40,7 +40,7 @@ h1, h2 {
 
 @media (max-width: 550px) {
   .skill-icon {
-    height: 125px;
+    height: 35px;
     width: auto;
   }
 }
