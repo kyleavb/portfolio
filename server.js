@@ -5,6 +5,8 @@ const port = process.env.PORT || 5000;
 const questions = require('./questions')
 const skills = require('./skillList')
 
+app.use(express.static(path.resolve(__dirname, 'client', 'build')));
+
 app.get('/getQuestions', (req, res) => {
   console.log('request for front end questions');
   res.send(JSON.stringify(questions));
