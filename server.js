@@ -4,7 +4,6 @@ const app = express();
 const port = process.env.PORT || 5000;
 const questions = require('./questions')
 const skills = require('./skillList')
-const resume = require('./VanBergenKyle_Resume_current.pdf')
 
 app.get('/getQuestions', (req, res) => {
   console.log('request for front end questions');
