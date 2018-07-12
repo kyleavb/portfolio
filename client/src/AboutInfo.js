@@ -9,7 +9,7 @@ class AboutInfo extends Component{
                 <Grid container className='intro-words'>
                     <Grid item xs={12}>
                         <h2>Hello.  I am Kyle.</h2>
-                        <p className='intro-para'>&nbsp;&nbsp;&nbsp;&nbsp;More Content coming soon!.</p>
+                        <p className='intro-para'>&nbsp;&nbsp;&nbsp;&nbsp;Enthusiastic and result-driven professional with over five years of information technology and code consulting experience. Avid gamer and tech enthusiast with knowledge of virtual reality and the Unity game engine . Motivated life-long learner looking to pivot my previous experiences into web development and to further my understanding of complex platforms and enhance my experience with various technology stacks.</p>
                         <br />
                     </Grid>
                     <Grid item xs={12}>
