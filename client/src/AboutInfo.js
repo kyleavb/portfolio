@@ -9,7 +9,7 @@ class AboutInfo extends Component{
                 <Grid container className='intro-words'>
                     <Grid item xs={12}>
                         <h2>Hello.  I am Kyle.</h2>
-                        <p className='intro-para'>&nbsp;&nbsp;&nbsp;&nbsp;I was the first kid on my block with a computer. and I have been fascinated with them ever since. I have been coding as a self-taught amateur for about 5 years. I got my start in coding by learning how to make macros and automate repots with Visual Basic with excel while at Bank of America. After that I started diving into JavaScript which lead to a job writing JavaScript repots for various fortune 500 companies. Since I was starting to get into more serious coding, I decided to attend General Assembly coding boot camp, and I have been insatiable ever since.</p>
+                        <p className='intro-para'>&nbsp;&nbsp;&nbsp;&nbsp;More Content coming soon!.</p>
                         <br />
                     </Grid>
                     <Grid item xs={12}>
