@@ -62,12 +62,4 @@ class SkillComponent extends Component{
         )
     }
 }
-export default SkillComponent
-
-
-
-//                     <LanguageJavascriptIcon />
-//                     <NodejsIcon size={250} onMouseEnter={this.handlePopoverOpen} onMouseLeave={this.handlePopoverClose} className='skill-icon'/>
-//                     <LanguageHtml5Icon size={250} color={'primary'} className='skill-icon'/>
-//                 </div>
-//                 
+export default SkillComponent;

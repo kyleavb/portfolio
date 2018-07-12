@@ -4,24 +4,24 @@
         "answer": "I am a full stack developer who had previously worked as a JavaScript consultant.  I am able to quickly find meaningful work to add to whatever project I am on.  Having been coding for several years, and recently completed a skill sharpening Web Development Immersive course over at General Assembly, I feel that I can add value to any team."
     },
     {
-        "question": "Do you custom design websites or use pre-made templates?",
-        "answer": "This question would be answered either by the client or the business I am currently working with.  If they want a totally greenfield solution, I can do that.  If they want me to spruce up their CMS with custom code, I can also do that.  However, I prefer to make sites."
+        "question": "Do you design custom websites or use pre-made templates?",
+        "answer": "This question would be answered by the client or the business I am currently working with.  If they want a totally new solution, I can do that.  If they want me to spruce up their CMS with custom code, I can also do that.  However, I prefer to build new sites or applications."
     },
     {
         "question": "What industry sites and blogs do you read regularly?",
-        "answer": "I read Geekwire, WebDeveloper Reddit, HackerNews.  I also have a active subscription to Pluralsight to keep me up to date with how to use new tech."
+        "answer": "I read Geekwire, Web Developer Reddits, HackerNews.  I also have an active subscription to Pluralsight to keep me up to date with how to use new tech."
     },
     {
         "question": "Do you prefer to work alone or on a team?",
-        "answer": "I prefer to work on a team, however if I just have a task I need to get done, then then I prefer to put in my headphones and work."
+        "answer": "I prefer to work on a team, however if I have a clearly defined task, then I prefer to put on my headphones and focus on work."
     },
     {
         "question": "What are a few of your favorite development tools and why?",
-        "answer": "I really like Visual Studio Code.  I have used Sublime, Atom, and just a text editor before, but I like how VS code rolls a lot of things into one and provides a 'app' store for extensions."
+        "answer": "I really like Visual Studio Code.  I have used Sublime, Atom, and just a regular old text editor before, but I like how VS code rolls a lot of things into one and provides an 'app' store for extensions."
     },
     {
         "question": "What skills and technologies are you the most interested in improving upon or learning?",
-        "answer": "Always keeping up on my coding skills, there is just so much to learn and to know, and with technology moving so fast you have to be constantly learning.  I am also interested in internet of things (IoT), it seems like a awesome way to solve problems by setting up an array of sensors."
+        "answer": "Always keeping up on my coding skills, there is just so much to learn and to know, and with technology moving so fast you have to be constantly learning.  I am also interested in internet of things (IoT), it seems like an awesome way to solve problems by setting up an array of sensors."
     },
     {
         "question": "What web browser do you use?",
@@ -32,3 +32,4 @@
         "answer": "A friend of mine and I are building out features on a IoT home care system.  I am also working with a few other developers to make a mobile game."
     }
 ]
+
