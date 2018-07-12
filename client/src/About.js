@@ -46,7 +46,8 @@ class About extends Component{
 
     newQuestion(){
         var questions = this.state.questionList
-        var num = this.getRandomNum(questions.length - 1)
+        var num = this.getRandomNum(questions.length)
+        console.log(num)
         if(this.state.history.length === questions.length){
             this.setState({
                 history: []
