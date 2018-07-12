@@ -36,7 +36,7 @@ class SkillComponent extends Component{
         let runTimeComp = this.createComponent(this.props.skill.icon);
         let render = this.state.popOpen
         return(
-            <Grid item xs={2} onClick={this.handleIconClick} color={'primary'}>
+            <Grid item xs={2}  color={'primary'}>
                 {runTimeComp}
                 <Popover
                     anchorEl={this.state.anchorEl}
@@ -63,3 +63,5 @@ class SkillComponent extends Component{
     }
 }
 export default SkillComponent;
+
+//add onClick={this.handleIconClick} to main Grid

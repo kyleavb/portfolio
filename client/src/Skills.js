@@ -25,7 +25,7 @@ class Skills extends Component{
             <Grid>
                 <a id='skills' className='anchor'/>
                 <h1>Technologies</h1>
-                <p><i>Click on a icon for more info!</i></p>
+                
                 <Grid container alignContent='space-between'>
                     {mappedSkills}
                 </Grid>
@@ -34,3 +34,5 @@ class Skills extends Component{
     }
 }
 export default Skills
+
+//<p><i>Click on a icon for more info!</i></p>
