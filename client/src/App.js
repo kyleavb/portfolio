@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router} from 'react-router-dom'
-import {Grid, Typography, createMuiTheme, MuiThemeProvider} from '@material-ui/core';
+import {Grid, createMuiTheme, MuiThemeProvider} from '@material-ui/core';
 import Nav from './Nav'
 import About from './About'
 import Skills from './Skills'

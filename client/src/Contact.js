@@ -16,7 +16,7 @@ class Contact extends Component{
                 Contact Deails
                 <h5>Email</h5>
                 <p>KyleAVB@gmail.com</p>
-                <a href='https://www.linkedin.com/in/kyle-van-bergen-b45a5bb1/' target="_blank"><h5>LinkedIn</h5></a>
+                <a href='https://www.linkedin.com/in/kyle-van-bergen-b45a5bb1/' rel="noopener noreferrer" target="_blank"><h5>LinkedIn</h5></a>
             </div>
         )
     }

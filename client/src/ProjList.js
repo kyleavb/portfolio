@@ -24,9 +24,9 @@ const PROJLIST = {
             'name': 'Ninja Vs. Zombies',
             'description' : 'A programatically generated game.  The system will automatically generate new terrain including pits, platforms, and background. While allowing the user to see how high of a score they can get!',
             'github' : 'https://github.com/kyleavb/game',
-            'live' : 'http://heroku.com',
+            'live' : 'https://kyleavb.github.io/game/',
             'img' : game,
-            'tech' : ['HTML', 'CSS', 'JavaScript']
+            'tech' : ['HTML', 'CSS', 'JavaScript', 'jQuery']
         },
         {
             'name': 'Magic: The Database',

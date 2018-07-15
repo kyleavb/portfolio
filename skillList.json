@@ -3,117 +3,156 @@
         {
             "name": "JavaScript",
             "icon": "LanguageJavascriptIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 5,
+            "related": "JavaSript is my most well-known language.  I have been coding in this language for about 5 years, and have worked professionally as a JavaScript report writer for IMPRIVA Inc. My main duty was to go to client locations, collect report requirements, speak to subject matter experts (SME's), and programmatically compile data and distil it down to an easy to digest report for stakeholders and project managers.",
+            "blurb": "The Language for all your internet needs!",
+            "stars": 5
         },
         {
             "name": "Python",
             "icon": "LanguagePythonIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 1,
+            "related": "I have been learning Python in my spare time.  I keep hearing how fun Python is to learn and program in, so I figured it would be a great skill to develop. Python is also being used in a lot of data analytics which has always piqued my interests.",
+            "blurb": "The whitespace and indentation language.",
+            "stars": 1
         },
         {
             "name": "C#",
             "icon": "LanguageCsharpIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 2,
+            "related": "A long while back, before I programmed for a living, a friend and I started our own video game development studio.  The Unity platform back then only allowed you to use C#.  We worked on making a game while I had to learn the language at the same time. I have two years here, but full transparency, it was very part time.  Present day, I am sharpening my C# skills by doing Unity tutorials and watching instructional lessons through my subscription to Pluralsight.",
+            "blurb": "Microsoft Application Language",
+            "stars": 3
         },
         {
             "name": "HTML5",
             "icon": "LanguageHtml5Icon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 1,
+            "related": "It is amazing what a markup language intended to send documents has become.  I have used HTML in all my projects listed on this page. It is really hard to discuss my professional understanding of HTML because it is such a foundational skill that it is just assumed.  However, with recent trends in web development to increase accessibility, using the semantic tags provided in HTML5 is very important.",
+            "blurb": "A Language?",
+            "stars": 3
         },
         {
             "name": "CSS3",
             "icon": "LanguageCss3Icon",
-            "blurb": "This is placeholder Info",
+            "years": 1,
+            "related": "CSS, like HTML and JavaScript are the foundation of all web development. While most of my strengths lay in the backend of development, any developer cannot write off CSS.  Being able to responsively plan out the user experience is paramount to any business.  I have a solid understanding of CSS, but I am constantly amazed at what people are able to do with the markup language",
+            "blurb": "Make it look good language",
             "stars": 2
         },
         {
             "name": "SQL",
             "icon": "DatabaseIcon",
-            "blurb": "This is placeholder Info",
+            "years": 3,
+            "related": "SQL or just querying a database is one of the most important tools in a backend developers toolbelt.  Keeping the number of queries needed down is goal for most database admins and backend developers, so having a deep understanding of the language is needed.  I have been lucky to have been exposed to SQL often in my professional career. Knowing how to get a dataset exactly how you want it can almost be an art form.  Having done work with large datasets it is imperative that my query gets the data I need without making the database work too hard.",
+            "blurb": "Do I have data language",
             "stars": 2
         },
         {
             "name": "JSX",
             "icon": "CodeBracesIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 1,
+            "related": "Having created four full stack web apps using React, I feel like I have decent grasp on how JSX is used when developing React applications.  Using methods introduced in ES6 you are able to get a lot done with rendering components in a relatively short amount of code.",
+            "blurb": "Reacts Language",
+            "stars": 3
         },
         {
             "name": "EJS",
             "icon": "CodeBracesIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 1,
+            "related": "It is easy to see why EJS became so popular.  Being able to pass data and inject JavaScript into a dynamically composed HTML document really changed how we compose HTML. I familiarized myself with EJS when I developed the Magic the database web application.  The site let users query an API for magic cards and develop a deck.  I used EJS along with EJS layouts to inject returned data to parse out each individual card that the user would then be able to save or favorite. Using EJS for this project helped demonstrate the power of being able to run JavaScript within a HTML file.",
+            "blurb": "Embedded JavaScript templating language",
+            "stars": 3
         },
         {
             "name": "React",
             "icon": "ReactIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 1,
+            "related": "React has had a meteoric rise in popularity, due to its creation of a virtual dom that will only re-render the part of a page that has been changed.  React also helps developers compartmentalize websites by building components that can have their own state and be comprised of other components.  I was intrigued with react and solving the question of why it is so popular.  Having made three full stack web applications using React, I now understand why it is all but taking over front-end development. ",
+            "blurb": "The one-page application dream",
+            "stars": 3
         },
         {
             "name": "Redux",
             "icon": "FileDocumentIcon",
-            "blurb": "This is placeholder Info",
+            "years": 1,
+            "related": "Global State",
+            "blurb": "While I love using React, one of its biggest drawbacks is how it can be very difficult to get to where you want or need it. That is why during the creation of our web application Equally, we wanted to have an easier way to get the users information to components that needed it without having to pass it through an endless chain.  Redux helped solve all those issues.  We implemented a global store, created reducers to accept new information, and then had dispatchers on components bring it all together.",
             "stars": 2
         },
         {
             "name": "Node.js",
             "icon": "NodejsIcon",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "years": 1,
+            "related": "I have exclusively used Node.js as my servers since I have made the transition to web development.  It is a fascinating technology, it gives newcomers the ease of being able to code a backend with JavaScript.  Node is also remarkable for its design being on a single thread that uses an event loop to process all requests. Node.js also provides npm or Node Package Manager which is an app store for JavaScript utilities, libraries, and frameworks.",
+            "blurb": "The JavaScript backend",
+            "stars": 3
         },
         {
             "name": "Express",
             "icon": "ServerIcon",
-            "blurb": "This is placeholder Info",
+            "years": 1,
+            "related": "All my full stack web applications utilize Express as the framework for my web server. Express provides an easy routing solution and native support for 14 different templating languages.  Express easily ",
+            "blurb": "A Node Server Package",
             "stars": 2
         },
         {
             "name": "Django",
             "icon": "ServerIcon",
+            "years": 1,
+            "related": "",
             "blurb": "This is placeholder Info",
             "stars": 2
         },
         {
             "name": "jQuery",
             "icon": "JqueryIcon",
+            "years": 1,
+            "related": "",
             "blurb": "This is placeholder Info",
             "stars": 2
         },
         {
             "name": "MongoDB",
             "icon": "DatabaseIcon",
+            "years": 1,
+            "related": "",
             "blurb": "This is placeholder Info",
             "stars": 2
         },
         {
             "name": "PostgreSQL",
             "icon": "DatabaseIcon",
+            "years": 1,
+            "related": "",
             "blurb": "This is placeholder Info",
             "stars": 2
         },
         {
-            "name": "Git",
+            "name": "Git/GitHub",
             "icon": "GithubCircleIcon",
-            "blurb": "This is placeholder Info",
+            "years": 1,
+            "related": "",
+            "blurb": "Version Control Superstar",
             "stars": 2
         },
         {
             "name": "Heroku",
             "icon": "ServerNetworkIcon",
-            "blurb": "This is placeholder Info",
+            "years": 1,
+            "related": "",
+            "blurb": "Free Application Hosting",
             "stars": 2
         },
         {
             "name": "Unity",
             "icon": "UnityIcon",
-            "blurb": "This is placeholder Info",
+            "years": 1,
+            "related": "",
+            "blurb": "Game Development Engine",
             "stars": 2
         }
     ]
 
 }
+

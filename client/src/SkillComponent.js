@@ -1,26 +1,14 @@
 import React,{Component} from 'react';
-import {Grid, Popover} from '@material-ui/core';
+import {Grid, Modal, Paper} from '@material-ui/core';
 import * as Icons from 'mdi-react';
-
+  
 class SkillComponent extends Component{
     state={
         popOpen: false,
-        anchorEl: null
     }
 
     handleIconClick = e => {
-        if(this.state.popOpen){
-            this.setState({
-                popOpen: false,
-                anchorEl: null
-            })
-        }else{
-            this.setState({
-                popOpen: true,
-                anchorEl: e.target
-            })
-        }
-        
+        this.state.popOpen ? this.setState({popOpen: false}) : this.setState({popOpen: true})
     };
 
     randomColor(){
@@ -36,32 +24,37 @@ class SkillComponent extends Component{
         let runTimeComp = this.createComponent(this.props.skill.icon);
         let render = this.state.popOpen
         return(
-            <Grid item xs={2}  color={'primary'}>
+            <Grid item xs={2} onClick={this.handleIconClick} color={'primary'}>
                 {runTimeComp}
-                <Popover
-                    anchorEl={this.state.anchorEl}
-                    open={render}
-                    anchorOrigin={{
-                        vertical: 'center',
-                        horizontal: 'right',
-                      }}
-                      transformOrigin={{
-                        vertical: 'top',
-                        horizontal: 'left',
-                      }}
-                    >
+                <Modal open={render} disableAutoFocus>
                     <Grid container>
-                        <Grid item xs={12}>
-                            <p>{this.props.skill.name}</p>
-                            <p>{this.props.skill.blurb}</p>
+                        <Grid item xs={6} className='modal-box'>
+                            <Paper>
+                                <h1>{this.props.skill.name}</h1>
+                                <p>{this.props.skill.blurb}</p>
+                                <h3>Experiance</h3>
+                                <p className='modal-text'>{this.props.skill.related}</p>
+                                <br />
+                                
+                                <Grid container>
+                                    <Grid item xs={12}>
+                                        <h3>Details</h3>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <p>{`Years: ${this.props.skill.years}`}</p>
+                                    </Grid>
+                                    <Grid item xs={6}>
+                                        <p>{`Comfort: ${this.props.skill.stars}`}</p>
+                                    </Grid>
+                                </Grid>
+                                <p><i>click anywhere to close</i></p>
+                            </Paper>
                         </Grid>
                     </Grid>
-                </Popover>
+                </Modal>
                 <p>{this.props.skill.name}</p>
             </Grid>
         )
     }
 }
 export default SkillComponent;
-
-//add onClick={this.handleIconClick} to main Grid

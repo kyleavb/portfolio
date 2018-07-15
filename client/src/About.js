@@ -33,15 +33,7 @@ class About extends Component{
     }
 
     fade(type){
-        if(type === 'in'){
-            this.setState({
-                fade: 'fadein'
-            })
-        }else{
-            this.setState({
-                fade: 'fadeout'
-            })
-        }
+        type === 'in' ? this.setState({fade: 'fadein'}) : this.setState({fade: 'fadeout'})
     }
 
     newQuestion(){

@@ -1,7 +1,9 @@
 import React,{Component} from 'react'
-import List from './ProjList'
-import {Grid, Button} from '@material-ui/core';
-import { TeacherIcon } from '../node_modules/mdi-react';
+import List from './ProjList';
+import {Grid} from '@material-ui/core';
+import ProjectTech from './ProjectTech';
+import ProjectImg from './ProjectImg';
+import ProjectDescription from './ProjectDescription'
 
 class Projects extends Component{
     render(){
@@ -19,32 +21,14 @@ class Projects extends Component{
                         <h2>{proj.name}</h2>
                     </Grid>
                     <Grid container>
-                        <Grid item sm={12} md={8}>
-                            <Grid container alignContent={'space-around'}>
-                                <Grid item xs={6}>
-                                    <Button variant="outlined" color="secondary" href={proj.github}>Git Hub</Button>
-                                </Grid>
-                                <Grid item xs={6}>
-                                    <Button variant="outlined" color="primary" href={proj.live}>Live Site</Button>
-                                </Grid>
-                            </Grid>
-                            <Grid container>
-                                <Grid item xs={12} sm={6} md={6}>
-                                    <h4>Tech Used</h4>
-                                    <Grid container>
-                                        {mappedStack}
-                                    </Grid>
-                                </Grid>
-                                <Grid item xs={12} sm={6} md={6}>
-                                    <h4>Description:</h4>
-                                    <p>{proj.description}</p>
-                                </Grid>
-                            </Grid>
+                        <Grid item sm={12} md={4}>
+                            <ProjectTech proj={proj} mappedStack={mappedStack} />
                         </Grid>
                         <Grid item sm={12} md={4}>
-                            <div className='img-holder'>
-                                <img src={proj.img} alt={`Image for ${proj.name}`} />
-                            </div>
+                            <ProjectImg proj={proj} />
+                        </Grid>
+                        <Grid item sm={12} md={4}>
+                            <ProjectDescription proj={proj} />
                         </Grid>
                     </Grid>
                 </Grid>

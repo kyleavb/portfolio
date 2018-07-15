@@ -10,6 +10,17 @@ body{
   font-size: 4em;
 }
 
+.modal-box{
+  margin: 0 auto;
+  transform: translate(50%, 30%);
+}
+
+
+.modal-text{
+  padding: 0 2em;
+  text-align: justify;
+}
+
 h1, h2 {
   font-family: 'Playfair Display SC', serif;
 }
