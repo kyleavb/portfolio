@@ -92,7 +92,7 @@
             "name": "Express",
             "icon": "ServerIcon",
             "years": 1,
-            "related": "All my full stack web applications utilize Express as the framework for my web server. Express provides an easy routing solution and native support for 14 different templating languages.  Express easily ",
+            "related": "All my full stack web applications utilize Express as the framework for my web server. Express provides an easy routing solution and native support for 14 different templating languages.  My projects that require a web server all use Express.  I found that its ecosystem of addon packages make it one of the best solutions for me.",
             "blurb": "A Node Server Package",
             "stars": 2
         },
@@ -100,39 +100,39 @@
             "name": "Django",
             "icon": "ServerIcon",
             "years": 1,
-            "related": "",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "related": "I have done work within the Django framework, however I have not had the time to create full web application within it.  I do have it on my to-do list to better understand Python and Django because every says coding in Python is so much fun and Django offers a feature rich framework to work within.",
+            "blurb": "Pythons all in one MVC",
+            "stars": 1
         },
         {
             "name": "jQuery",
             "icon": "JqueryIcon",
             "years": 1,
-            "related": "",
-            "blurb": "This is placeholder Info",
-            "stars": 2
+            "related": "A fantastic and widely used DOM manipulation library.  I use jQuery in all of my non-react web pages.  Coupled with jQueryUI you have a complete solution for making your site responsive to user input.",
+            "blurb": "DOM manipulation library",
+            "stars": 3
         },
         {
             "name": "MongoDB",
             "icon": "DatabaseIcon",
             "years": 1,
-            "related": "",
-            "blurb": "This is placeholder Info",
+            "related": "When I first heard of no-sql databases, I was worried.  After working a bit with no-sql database, specifically MongoDB and Mongoose as the ORM, I can see the value prop.  Being able to have unstructured data that you can develop as you go is a great tool for quick iteration or prototyping ideas.",
+            "blurb": "Poplar no-SQL database",
             "stars": 2
         },
         {
             "name": "PostgreSQL",
             "icon": "DatabaseIcon",
             "years": 1,
-            "related": "",
-            "blurb": "This is placeholder Info",
+            "related": "PostgreSQL is a great SQL language.  Given the robust community and well documented ORM Sequelize, PostgreSQL is a great technology to know.  Having used PostgreSQL in most of my projects I have become familiar with the implementation of this tech.",
+            "blurb": "SQL Dialect",
             "stars": 2
         },
         {
             "name": "Git/GitHub",
             "icon": "GithubCircleIcon",
             "years": 1,
-            "related": "",
+            "related": "Git and Github have become indispensable in the tech world. With Gits integration into most Linux systems it has become everyone’s favorite and most relied upon version control system.  Coupled with the cloud solution GitHub it has made version control and code collaboration a breeze, when you know the commands.  During most of my projects I was the Git master.  Ensuring each commit was merged appropriately and quickly handling any merge conflicts that came up.",
             "blurb": "Version Control Superstar",
             "stars": 2
         },
@@ -140,19 +140,19 @@
             "name": "Heroku",
             "icon": "ServerNetworkIcon",
             "years": 1,
-            "related": "",
+            "related": "I really enjoy the Heroku platform.  It is a quick and easy way to host any web application you want for free!  Their CLI offers a bevy of additional features which help with tracking down deployment bugs.  All my projects are currently hosted on Heroku as is this Portfolio.",
             "blurb": "Free Application Hosting",
-            "stars": 2
+            "stars": 3
         },
         {
             "name": "Unity",
             "icon": "UnityIcon",
             "years": 1,
-            "related": "",
+            "related": "I love games, all types, but I have a soft spot for video games.  Years ago, I formed my own video game development studio with a friend.  We never completed our projects, we were both working full time and at the time I was a novice coder.  However, since then I have been learning Unity and hope to one day be able to develop mobile games for release on app stores on both Android and Apple.",
             "blurb": "Game Development Engine",
             "stars": 2
         }
     ]
-
 }
+
 
