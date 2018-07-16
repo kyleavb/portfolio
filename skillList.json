@@ -4,7 +4,7 @@
             "name": "JavaScript",
             "icon": "LanguageJavascriptIcon",
             "years": 5,
-            "related": "JavaSript is my most well-known language.  I have been coding in this language for about 5 years, and have worked professionally as a JavaScript report writer for IMPRIVA Inc. My main duty was to go to client locations, collect report requirements, speak to subject matter experts (SME's), and programmatically compile data and distil it down to an easy to digest report for stakeholders and project managers.",
+            "related": "JavaScript is what I’m most proficient in.  I have been coding in this language for about 5 years, and have worked professionally as a JavaScript report writer for IMPRIVA Inc. My main duty was to go to client locations, collect report requirements, speak to subject matter experts (SME's), and programmatically compile data and distill it down to an easy-to-digest report for stakeholders and project managers.",
             "blurb": "The Language for all your internet needs!",
             "stars": 5
         },
@@ -12,7 +12,7 @@
             "name": "Python",
             "icon": "LanguagePythonIcon",
             "years": 1,
-            "related": "I have been learning Python in my spare time.  I keep hearing how fun Python is to learn and program in, so I figured it would be a great skill to develop. Python is also being used in a lot of data analytics which has always piqued my interests.",
+            "related": "I have been learning Python in my spare time.  I kept hearing how fun Python is to learn and program in, so I figured it would be a great skill to develop. Python is also being used in a lot of data analytics which has always piqued my interests.",
             "blurb": "The whitespace and indentation language.",
             "stars": 1
         },
@@ -20,7 +20,7 @@
             "name": "C#",
             "icon": "LanguageCsharpIcon",
             "years": 2,
-            "related": "A long while back, before I programmed for a living, a friend and I started our own video game development studio.  The Unity platform back then only allowed you to use C#.  We worked on making a game while I had to learn the language at the same time. I have two years here, but full transparency, it was very part time.  Present day, I am sharpening my C# skills by doing Unity tutorials and watching instructional lessons through my subscription to Pluralsight.",
+            "related": "A long while back, before I programmed for a living, a friend and I started our own video game development studio.  The Unity platform back then only allowed you to use C#.  We worked on making a game, allowing me to learn the language at the same time. I have two years here, but full transparency, it was very part time.  Present day, I am sharpening my C# skills by doing Unity tutorials and watching instructional lessons through my subscription to Pluralsight.",
             "blurb": "Microsoft Application Language",
             "stars": 3
         },
@@ -28,7 +28,7 @@
             "name": "HTML5",
             "icon": "LanguageHtml5Icon",
             "years": 1,
-            "related": "It is amazing what a markup language intended to send documents has become.  I have used HTML in all my projects listed on this page. It is really hard to discuss my professional understanding of HTML because it is such a foundational skill that it is just assumed.  However, with recent trends in web development to increase accessibility, using the semantic tags provided in HTML5 is very important.",
+            "related": "It is amazing what a markup language intended to send documents has become.  I have used HTML in all my projects listed on this page. It is really hard to discuss my professional understanding of HTML because it is such a fundamental skill.  However, with recent trends in web development to increase accessibility, using the semantic tags provided in HTML5 is very important.",
             "blurb": "A Language?",
             "stars": 3
         },
@@ -36,7 +36,7 @@
             "name": "CSS3",
             "icon": "LanguageCss3Icon",
             "years": 1,
-            "related": "CSS, like HTML and JavaScript are the foundation of all web development. While most of my strengths lay in the backend of development, any developer cannot write off CSS.  Being able to responsively plan out the user experience is paramount to any business.  I have a solid understanding of CSS, but I am constantly amazed at what people are able to do with the markup language",
+            "related": "CSS, like HTML and JavaScript, are the building blocks of the foundation of all web development. While most of my strengths lay in the backend of development, any developer cannot write off CSS.  Being able to plan the user experience out and ensure responsiveness is paramount to any business.  I have a solid understanding of CSS, but I am constantly amazed at what people are able to do with the markup language.",
             "blurb": "Make it look good language",
             "stars": 2
         },
@@ -44,7 +44,7 @@
             "name": "SQL",
             "icon": "DatabaseIcon",
             "years": 3,
-            "related": "SQL or just querying a database is one of the most important tools in a backend developers toolbelt.  Keeping the number of queries needed down is goal for most database admins and backend developers, so having a deep understanding of the language is needed.  I have been lucky to have been exposed to SQL often in my professional career. Knowing how to get a dataset exactly how you want it can almost be an art form.  Having done work with large datasets it is imperative that my query gets the data I need without making the database work too hard.",
+            "related": "SQL or just querying a database is one of the most important tools in a backend developers toolbelt.  Keeping the number of queries needed down is goal for most database admins and backend developers, so having a deep understanding of the language is paramount.  I have been lucky to have been exposed to SQL often in my professional career. Knowing how to get a dataset exactly how you want it can almost be an art form.  Having done work with large datasets it is imperative that my query gets the data I need without making the database work too hard.",
             "blurb": "Do I have data language",
             "stars": 2
         },
@@ -53,14 +53,14 @@
             "icon": "CodeBracesIcon",
             "years": 1,
             "related": "Having created four full stack web apps using React, I feel like I have decent grasp on how JSX is used when developing React applications.  Using methods introduced in ES6 you are able to get a lot done with rendering components in a relatively short amount of code.",
-            "blurb": "Reacts Language",
+            "blurb": "React’s Language",
             "stars": 3
         },
         {
             "name": "EJS",
             "icon": "CodeBracesIcon",
             "years": 1,
-            "related": "It is easy to see why EJS became so popular.  Being able to pass data and inject JavaScript into a dynamically composed HTML document really changed how we compose HTML. I familiarized myself with EJS when I developed the Magic the database web application.  The site let users query an API for magic cards and develop a deck.  I used EJS along with EJS layouts to inject returned data to parse out each individual card that the user would then be able to save or favorite. Using EJS for this project helped demonstrate the power of being able to run JavaScript within a HTML file.",
+            "related": "It is easy to see why EJS became so popular.  Being able to pass data and inject JavaScript into a dynamically composed HTML document really changed how we compose HTML. I familiarized myself with EJS when I developed the Magic: the Database web application.  The site let users query an API for Magic cards and curate a deck.  I used EJS along with EJS layouts to inject returned data to parse out each individual card that the user would then be able to save or favorite. Using EJS for this project helped demonstrate the power of being able to run JavaScript within a HTML file.",
             "blurb": "Embedded JavaScript templating language",
             "stars": 3
         },
@@ -68,7 +68,7 @@
             "name": "React",
             "icon": "ReactIcon",
             "years": 1,
-            "related": "React has had a meteoric rise in popularity, due to its creation of a virtual dom that will only re-render the part of a page that has been changed.  React also helps developers compartmentalize websites by building components that can have their own state and be comprised of other components.  I was intrigued with react and solving the question of why it is so popular.  Having made three full stack web applications using React, I now understand why it is all but taking over front-end development. ",
+            "related": "React has had a meteoric rise in popularity, due to its creation of a virtual DOM that will only re-render the part of a page that has been changed.  React also helps developers compartmentalize websites by building components that can have their own state and be comprised of other components.  I was intrigued with React and solving the question of why it is so popular.  Having made three full stack web applications using React, I now understand why it is paving the way for effective and straightforward front-end development. ",
             "blurb": "The one-page application dream",
             "stars": 3
         },
@@ -77,7 +77,7 @@
             "icon": "FileDocumentIcon",
             "years": 1,
             "related": "Global State",
-            "blurb": "While I love using React, one of its biggest drawbacks is how it can be very difficult to get to where you want or need it. That is why during the creation of our web application Equally, we wanted to have an easier way to get the users information to components that needed it without having to pass it through an endless chain.  Redux helped solve all those issues.  We implemented a global store, created reducers to accept new information, and then had dispatchers on components bring it all together.",
+            "blurb": "While I love using React, one of its biggest drawbacks is how it can be very difficult to get state to where it belongs. That is why during the creation of our web application Equally, we wanted to have an easier way to get the users information to components that needed it without having to pass it through an endless chain.  Redux helped solve all those issues.  We implemented a global store, created reducers to accept new information, and then had dispatchers on components bring it all together.",
             "stars": 2
         },
         {
@@ -92,7 +92,7 @@
             "name": "Express",
             "icon": "ServerIcon",
             "years": 1,
-            "related": "All my full stack web applications utilize Express as the framework for my web server. Express provides an easy routing solution and native support for 14 different templating languages.  My projects that require a web server all use Express.  I found that its ecosystem of addon packages make it one of the best solutions for me.",
+            "related": "All my full stack web applications utilize Express as the framework for my web server. Express provides an easy routing solution and native support for 14 different templating languages.  My projects that require a web server all use Express.  I found that its ecosystem of add-on packages make it one of the best solutions for me.",
             "blurb": "A Node Server Package",
             "stars": 2
         },
@@ -100,7 +100,7 @@
             "name": "Django",
             "icon": "ServerIcon",
             "years": 1,
-            "related": "I have done work within the Django framework, however I have not had the time to create full web application within it.  I do have it on my to-do list to better understand Python and Django because every says coding in Python is so much fun and Django offers a feature rich framework to work within.",
+            "related": "I have done work within the Django framework, however I have not had the time to create full web application within it.  I do have it on my to-do list to better understand Python and Django because everyone says coding in Python is so much fun and Django offers a rich framework to work within.",
             "blurb": "Pythons all in one MVC",
             "stars": 1
         },
@@ -116,7 +116,7 @@
             "name": "MongoDB",
             "icon": "DatabaseIcon",
             "years": 1,
-            "related": "When I first heard of no-sql databases, I was worried.  After working a bit with no-sql database, specifically MongoDB and Mongoose as the ORM, I can see the value prop.  Being able to have unstructured data that you can develop as you go is a great tool for quick iteration or prototyping ideas.",
+            "related": "When I first heard of no-SQL databases, I was worried.  After working a bit with no-SQL database, specifically MongoDB and Mongoose as the ORM, I can see the value prop.  Being able to have unstructured data that you can develop as you go is a great tool for quick iteration or prototyping ideas.",
             "blurb": "Poplar no-SQL database",
             "stars": 2
         },
@@ -132,7 +132,7 @@
             "name": "Git/GitHub",
             "icon": "GithubCircleIcon",
             "years": 1,
-            "related": "Git and Github have become indispensable in the tech world. With Gits integration into most Linux systems it has become everyone’s favorite and most relied upon version control system.  Coupled with the cloud solution GitHub it has made version control and code collaboration a breeze, when you know the commands.  During most of my projects I was the Git master.  Ensuring each commit was merged appropriately and quickly handling any merge conflicts that came up.",
+            "related": "Git and Github have become indispensable in the tech world. With Git’s integration into most Linux systems, it has become everyone’s favorite and most relied upon version control system.  Coupled with the cloud solution, GitHub it has made version control and code collaboration a breeze, when you know the commands.  During most of my projects I was the Git master, where I had the job of ensuring each commit was merged appropriately and quickly handling any merge conflicts that came up.",
             "blurb": "Version Control Superstar",
             "stars": 2
         },
@@ -140,7 +140,7 @@
             "name": "Heroku",
             "icon": "ServerNetworkIcon",
             "years": 1,
-            "related": "I really enjoy the Heroku platform.  It is a quick and easy way to host any web application you want for free!  Their CLI offers a bevy of additional features which help with tracking down deployment bugs.  All my projects are currently hosted on Heroku as is this Portfolio.",
+            "related": "I really enjoy the Heroku platform.  It is a quick and easy way to host any web application you want for free!  Their CLI offers a bevy of additional features which help with tracking down deployment bugs.  All my projects are currently hosted on Heroku, as is this Portfolio.",
             "blurb": "Free Application Hosting",
             "stars": 3
         },
