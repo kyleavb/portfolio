@@ -32,7 +32,7 @@ class SkillComponent extends Component{
                             <Paper>
                                 <h1>{this.props.skill.name}</h1>
                                 <p>{this.props.skill.blurb}</p>
-                                <h3>Experiance</h3>
+                                <h3>Experience</h3>
                                 <p className='modal-text'>{this.props.skill.related}</p>
                                 <br />
                                 
