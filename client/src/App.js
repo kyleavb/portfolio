@@ -47,7 +47,6 @@ class App extends Component {
                 <About />
                 <Skills />
                 <Projects />
-                <Contact />
               </div>
             </div>
           </Router>
@@ -58,3 +57,5 @@ class App extends Component {
 }
 
 export default App;
+
+{/* <Contact /> */}

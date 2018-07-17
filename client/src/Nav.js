@@ -9,7 +9,7 @@ class Nav extends Component{
                     <b className='title-name'>Kyle Van Bergen</b>
                     <br />
                     <i>Seattle Based Full Stack Developer</i>
-                    <Grid container spacing={24} className='navtags'>
+                    <Grid container spacing={24} className='navtags' justify='center'>
                         <Grid item xs={6} sm={3}>
                             <Button size='large' href='#about'>About</Button>                           
                         </Grid>
@@ -19,9 +19,6 @@ class Nav extends Component{
                         <Grid item xs={6} sm={3}>
                             <Button size='large' href='#projects'>Projects</Button>
                         </Grid>
-                        <Grid item xs={6} sm={3}>
-                            <Button size='large' href='#contact'>Contact</Button>
-                        </Grid>
                     </Grid>
                 </div>
             </AppBar>
@@ -29,3 +26,7 @@ class Nav extends Component{
     }
 }
 export default Nav
+
+{/* <Grid item xs={6} sm={3}>
+                            <Button size='large' href='#contact'>Contact</Button>
+                        </Grid> */}
