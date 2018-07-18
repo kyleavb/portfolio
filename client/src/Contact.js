@@ -32,7 +32,7 @@ class Contact extends Component{
     }
     resumeGet(){
         axios({
-            url: 'http://localhost:3000/resume',
+            url: '/resume',
             method: 'GET',
             responseType: 'blob',
           }).then((res) => {
