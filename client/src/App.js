@@ -45,8 +45,12 @@ class App extends Component {
               <Nav />
               <div className='App'>
                 <About />
+                <hr />
                 <Skills />
+                <hr />
                 <Projects />
+                <hr />
+                <Contact />
               </div>
             </div>
           </Router>
@@ -57,5 +61,3 @@ class App extends Component {
 }
 
 export default App;
-
-{/* <Contact /> */}

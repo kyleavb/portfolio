@@ -19,6 +19,9 @@ class Nav extends Component{
                         <Grid item xs={6} sm={3}>
                             <Button size='large' href='#projects'>Projects</Button>
                         </Grid>
+                        <Grid item xs={6} sm={3}>
+                            <Button size='large' href='#contact'>Contact</Button>
+                        </Grid>
                     </Grid>
                 </div>
             </AppBar>
@@ -27,6 +30,4 @@ class Nav extends Component{
 }
 export default Nav
 
-{/* <Grid item xs={6} sm={3}>
-                            <Button size='large' href='#contact'>Contact</Button>
-                        </Grid> */}
+ 

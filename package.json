@@ -13,6 +13,7 @@
   "author": "Kyle Van Bergen",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "concurrently": "^3.6.0",
     "dotenv": "^6.0.0",
     "eslint": "^5.1.0",

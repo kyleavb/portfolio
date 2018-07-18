@@ -35,7 +35,6 @@ class SkillComponent extends Component{
                                 <h3>Experience</h3>
                                 <p className='modal-text'>{this.props.skill.related}</p>
                                 <br />
-                                
                                 <Grid container>
                                     <Grid item xs={12}>
                                         <h3>Details</h3>

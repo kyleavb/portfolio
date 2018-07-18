@@ -4,7 +4,9 @@ body{
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
 }
-
+a{
+  text-decoration: none;
+}
 .title-name {
   font-family: 'Playfair Display SC', serif;
   font-size: 4em;
