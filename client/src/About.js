@@ -23,9 +23,11 @@ class About extends Component{
         axios.get('/getQuestions').then((data)=>{
             this.setState({
                 questionList: data.data
-            }, this.newQuestion)
-        })
-        setInterval(() => {this.newQuestion()}, 10000);
+            }, ()=>{
+                this.newQuestion()
+                setInterval(() => {this.newQuestion()}, 10000);
+            });
+        });
     }
 
     getRandomNum(max){
