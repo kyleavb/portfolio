@@ -76,8 +76,8 @@
             "name": "Redux",
             "icon": "FileDocumentIcon",
             "years": 1,
-            "related": "Global State",
-            "blurb": "While I love using React, one of its biggest drawbacks is how it can be very difficult to get state to where it belongs. That is why during the creation of our web application Equally, we wanted to have an easier way to get the users information to components that needed it without having to pass it through an endless chain.  Redux helped solve all those issues.  We implemented a global store, created reducers to accept new information, and then had dispatchers on components bring it all together.",
+            "related": "While I love using React, one of its biggest drawbacks is how it can be very difficult to get state to where it belongs. That is why during the creation of our web application Equally, we wanted to have an easier way to get the users information to components that needed it without having to pass it through an endless chain.  Redux helped solve all those issues.  We implemented a global store, created reducers to accept new information, and then had dispatchers on components bring it all together.",
+            "blurb": "Global State",
             "stars": 2
         },
         {
